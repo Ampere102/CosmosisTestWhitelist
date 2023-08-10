@@ -1,5 +1,5 @@
 userids = {
-[1320099012] = false, --me
+[1320099012] = true, --me
 [2349606723] = true --Jay
 }
 return userids
